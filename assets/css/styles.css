@@ -20,3 +20,52 @@ a{
     opacity: 0.75;
     color: #555;
 }
+
+/*Header Styles*/
+
+header{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px 100px 0;
+    animation: 1s fadein 0.5s forwards;
+    opacity: 0;
+}
+
+@keyframes fadein {
+    100%{
+        opacity: 1;
+    }
+}
+
+header h2{
+    font-family: "Quicksand", sans-serif;
+}
+
+header nav{
+    display: flex;
+    margin-right: -15px;
+}
+
+header nav li{
+    margin: 0 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
