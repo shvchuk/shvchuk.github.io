@@ -1,0 +1,22 @@
+/*Genral Styles*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font: normal 16px sans-serif;
+    color: #555;
+}
+
+ul, nav{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    opacity: 0.75;
+    color: #555;
+}
