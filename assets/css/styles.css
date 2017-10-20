@@ -42,6 +42,8 @@ header{
 
 header h2{
     font-family: "Quicksand", sans-serif;
+    font-size: 30px;
+    padding-bottom: 10px;
 }
 
 header nav{
@@ -51,6 +53,43 @@ header nav{
 
 header nav li{
     margin: 0 15px;
+}
+
+header nav li i {
+    margin-right: 10px;
+    color: #52c9aa;
+}
+
+@media (max-width: 800px){
+    header{
+        padding: 20px 50px;
+        flex-direction: column;
+    }
+
+    header h2{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    header nav li{
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 500px){
+    header nav{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header h2{
+        font-size: 20px;
+        margin-bottom: 0;
+    }
+
+    header nav li{
+        font-size: 12px;
+    }
 }
 
 
