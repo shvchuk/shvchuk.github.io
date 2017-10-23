@@ -148,6 +148,9 @@ header nav li i {
     margin-bottom: 20px;
 }
 
+.profiles .grid li i {
+    transition: all .2s ease-in-out;
+}
 .profiles .grid li i:hover{
     transform: scale(1.5);
 }
